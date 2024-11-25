@@ -1,231 +1,379 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catálogo de Acessórios</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-<!-- Header com navegação -->
-<header class="navbar navbar-expand-lg navbar-light p-3">
-    <div class="container d-flex justify-content-between align-items-center">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- Header com navegação -->
+    <header class="navbar navbar-expand-lg navbar-light p-3">
+      <div class="container d-flex justify-content-between align-items-center">
         <!-- Botão hamburguer -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <!-- Título -->
         <h1 class="mb-0">Catálogo de Acessórios</h1>
-        
+
         <!-- Menu de navegação -->
         <nav class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto"> <!-- Centraliza os itens do menu -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#colares">Colares</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#aneis">Anéis</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#brincos">Brincos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#pulseiras">Pulseiras</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav mx-auto">
+            <!-- Centraliza os itens do menu -->
+            <li class="nav-item">
+              <a class="nav-link" href="#colares">Colares</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aneis">Anéis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#brincos">Brincos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pulseiras">Pulseiras</a>
+            </li>
+          </ul>
         </nav>
-    </div>
-</header>
-
-
-
+      </div>
+    </header>
 
     <main class="container my-5">
-        <!-- Pulseiras -->
-        <section id="pulseiras">
-            <h2 class="catalog-title">Pulseiras</h2>
-            <div class="row row-cols-2 row-cols-md-3 g-4 mt-4">
-                <div class="col-12">
-                    <div class="card catalog-item">
-                        <img src="imagens/pulseiras/Bracelete Quadrado- Isabely Marins.jpeg" class="card-img-top" alt="Pulseira 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Bracelete Quadrado</h5>
-                            <p class="card-price">R$65,90</p>
-                            <p class="card-text">Bracelete ref: 001, de 6,5cm, em PRATA 925 LEGÍTIMA- Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20na%20Pulseira%20Prata." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="./imagens/pulseiras/Bracelete Quadrado- Isabely Marins.jpeg" class="card-img-top" alt="Pulseira 2">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Bracelete Laminado</h5>
-                            <p class="card-price">R$154,90</p>
-                            <p class="card-text">Bracelete ref: 003, em PRATA 925 LEGÍTIMA- Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20na%20Pulseira%20Classic." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="imagens/pulseiras/pulseira infinito - Isabely Marins.jpeg" class="card-img-top" alt="Pulseira 2">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Pulseira Elo Losango</h5>
-                            <p class="card-price"> R$55,90</p>
-                            <p class="card-text">Pulseira ref: 001, em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20na%20Pulseira%20Classic." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="imagens/pulseiras/pulseira infinito - Isabely Marins.jpeg" class="card-img-top" alt="Pulseira 2">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Pulseira Pingente Infinito</h5>
-                            <p class="card-price">R$67,90</p>
-                            <p class="card-text">Pulseira ref: 002, em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20na%20Pulseira%20Classic." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="imagens/pulseiras/pulseira infinito - Isabely Marins.jpeg" class="card-img-top" alt="Pulseira 2">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Pulseira Pingente Oval</h5>
-                            <p class="card-price"> R$45,90</p>
-                            <p class="card-text">Pulseira ref: 003, em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20na%20Pulseira%20Classic." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Adicione mais pulseiras aqui -->
+      <!-- Pulseiras -->
+      <section id="pulseiras">
+        <h2 class="catalog-title">Pulseiras</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4 mt-4">
+          <div class="col-12">
+            <div class="card catalog-item">
+              <img
+                src="imagens/pulseiras/Bracelete Quadrado- Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Pulseira 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Bracelete Quadrado</h5>
+                <p class="card-price">R$65,90</p>
+                <p class="card-text">
+                  Bracelete ref: 001, de 6,5cm, em PRATA 925 LEGÍTIMA- Garantia
+                  Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20na%20Bracelete%20Quadrado."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
             </div>
-        </section>
-
-        <!-- Anéis -->
-        <section id="aneis" class="mt-5">
-            <h2 class="catalog-title">Anéis</h2>
-            <div class="row row-cols-2 row-cols-md-3 g-4 mt-4">
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="imagens/anéis/anel-Oval - Isabely Marins.jpeg" class="card-img-top" alt="Anel Oval">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Anel Oval</h5>
-                            <p class="card-price">R$ 94,99</p>
-                            <p class="card-text">Anel (Tamanho 16) em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20no%20Anel%20Oval." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>                
-                <!-- Adicione mais anéis aqui -->
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="./imagens/pulseiras/Bracelete Quadrado- Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Pulseira 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Bracelete Laminado</h5>
+                <p class="card-price">R$154,90</p>
+                <p class="card-text">
+                  Bracelete ref: 003, em PRATA 925 LEGÍTIMA- Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20na%20Bracelete%20Laminado."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
             </div>
-        </section>
-
-        <!-- Colares -->
-        <section id="colares" class="mt-5">
-            <h2 class="catalog-title">Colares</h2>
-            <div class="row row-cols-2 row-cols-md-3 g-4 mt-4">
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="./imagens/Colares/colar_redondo - Isabely Marins.jpeg" class="card-img-top" alt="Colar 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Colar Redondo</h5>
-                            <p class="card-price">R$119,90</p>
-                            <p class="card-text">Colar de 45cm em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20no%20Colar%20Prata." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="./imagens/Colares/Colar_Gravatinha - Isabely Marins.jpeg" class="card-img-top" alt="Colar 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Colar Gravatinha Coração Vazado</h5>
-                            <p class="card-price">R$89,90</p>
-                            <p class="card-text">Colar de 40cm + 5cm de extensor em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20no%20Colar%20Prata." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="./imagens/Colares/Colar_Gravatinha_Zircônia - Isabely Marins.jpeg" class="card-img-top" alt="Colar 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Colar Gravatinha Zircônia e Coração</h5>
-                            <p class="card-price">R$119,90</p>
-                            <p class="card-text">Colar de 40cm + 5cm de extensor em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20no%20Colar%20Prata." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="./imagens/Colares/Colar Trevo Van Cleef - Isabely Marins.jpeg" class="card-img-top" alt="Colar 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Colar Trevo Van Cleef</h5>
-                            <p class="card-price"> R$149,90</p>
-                            <p class="card-text">Colar de 35 cm com extensor de 5 cm, na cor branca, em PRATA 925 LEGÍTIMA - Garantia Vitalícia.</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20no%20Colar%20Prata." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="./imagens/Colares/colar infinito- Isabely Marins.jpeg" class="card-img-top" alt="Colar 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Colar Infinito</h5>
-                            <p class="card-price"> R$89,90</p>
-                            <p class="card-text">Colar de 45 cm, em PRATA 925 LEGÍTIMA - Garantia Vitalícia.</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20no%20Colar%20Prata." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Adicione mais colares aqui -->
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="imagens/pulseiras/pulseira infinito - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Pulseira 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Pulseira Elo Losango</h5>
+                <p class="card-price">R$55,90</p>
+                <p class="card-text">
+                  Pulseira ref: 001, em PRATA 925 LEGÍTIMA - Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20na%20Pulseira%20Elo%20Losango."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
             </div>
-        </section>
-
-        <section id="brincos" class="mt-5">
-            <h2 class="catalog-title">Brincos</h2>
-            <div class="row row-cols-2 row-cols-md-3 g-4 mt-4">
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="imagens/brincos/brincos - Isabely Marins.jpeg" class="card-img-top" alt="Colar 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Brinco Oval em Zircônia</h5>
-                            <p class="card-price">R$66,90</p>
-                            <p class="card-text">  Brinco 4x6mm em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20no%20Colar%20Prata." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card catalog-item">
-                        <img src="./imagens/brincos/Webp.net-resizeimage.jpg" class="card-img-top img_zirconia" alt="Colar 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Brinco Pendurado Zircônia</h5>
-                            <p class="card-price">R$67,90</p>
-                            <p class="card-text">  Brinco de 2cm em PRATA 925 LEGÍTIMA - Garantia Vitalícia</p>
-                            <a href="https://wa.me/5591999999999?text=Olá!%20Tenho%20interesse%20no%20Colar%20Prata." class="btn btn-success">Comprar no WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Adicione mais Brincos aqui -->
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="imagens/pulseiras/pulseira infinito - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Pulseira 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Pulseira Pingente Infinito</h5>
+                <p class="card-price">R$67,90</p>
+                <p class="card-text">
+                  Pulseira ref: 002, em PRATA 925 LEGÍTIMA - Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20na%20Pulseira%20Pingente%20Infinito."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="imagens/pulseiras/pulseira infinito - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Pulseira 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Pulseira Pingente Oval</h5>
+                <p class="card-price">R$45,90</p>
+                <p class="card-text">
+                  Pulseira ref: 003, em PRATA 925 LEGÍTIMA - Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20na%20Pulseira%20Pingente%20Oval."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Adicione mais pulseiras aqui -->
+        </div>
+      </section>
+
+      <!-- Anéis -->
+      <section id="aneis" class="mt-5">
+        <h2 class="catalog-title">Anéis</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4 mt-4">
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="imagens/anéis/anel-Oval - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Anel Oval"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Anel Oval</h5>
+                <p class="card-price">R$ 94,99</p>
+                <p class="card-text">
+                  Anel (Tamanho 16) em PRATA 925 LEGÍTIMA - Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20no%20Anel%20Oval."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Adicione mais anéis aqui -->
+        </div>
+      </section>
+
+      <!-- Colares -->
+      <section id="colares" class="mt-5">
+        <h2 class="catalog-title">Colares</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4 mt-4">
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="./imagens/Colares/colar_redondo - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Colar 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Colar Redondo</h5>
+                <p class="card-price">R$119,90</p>
+                <p class="card-text">
+                  Colar de 45cm em PRATA 925 LEGÍTIMA - Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20no%20Colar%20Redondo."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="./imagens/Colares/Colar_Gravatinha - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Colar 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Colar Gravatinha Coração Vazado</h5>
+                <p class="card-price">R$89,90</p>
+                <p class="card-text">
+                  Colar de 40cm + 5cm de extensor em PRATA 925 LEGÍTIMA -
+                  Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20no%20Colar%20Gravatinha%20Coração%20Vazado."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="./imagens/Colares/Colar_Gravatinha_Zircônia - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Colar 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Colar Gravatinha Zircônia e Coração</h5>
+                <p class="card-price">R$119,90</p>
+                <p class="card-text">
+                  Colar de 40cm + 5cm de extensor em PRATA 925 LEGÍTIMA -
+                  Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20no%20Colar%20Gravatinha%20Zircônia%20e%20Coração."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="./imagens/Colares/Colar Trevo Van Cleef - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Colar 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Colar Trevo Van Cleef</h5>
+                <p class="card-price">R$149,90</p>
+                <p class="card-text">
+                  Colar de 35 cm com extensor de 5 cm, na cor branca, em PRATA
+                  925 LEGÍTIMA - Garantia Vitalícia.
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20no%20Colar%20Trevo%20Van%20Cleef."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="./imagens/Colares/colar infinito- Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Colar 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Colar Infinito</h5>
+                <p class="card-price">R$89,90</p>
+                <p class="card-text">
+                  Colar de 45 cm, em PRATA 925 LEGÍTIMA - Garantia Vitalícia.
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20no%20Colar%20Infinito."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Adicione mais colares aqui -->
+        </div>
+      </section>
+
+      <section id="brincos" class="mt-5">
+        <h2 class="catalog-title">Brincos</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4 mt-4">
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="imagens/brincos/brincos - Isabely Marins.jpeg"
+                class="card-img-top"
+                alt="Colar 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Brinco Oval em Zircônia</h5>
+                <p class="card-price">R$66,90</p>
+                <p class="card-text">
+                  Brinco 4x6mm em PRATA 925 LEGÍTIMA - Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20no%20Brinco%20Oval%20em%20Zircônia."
+                  class="btn btn-success" target="_blank"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card catalog-item">
+              <img
+                src="./imagens/brincos/Webp.net-resizeimage.jpg"
+                class="card-img-top img_zirconia"
+                alt="Colar 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Brinco Pendurado Zircônia</h5>
+                <p class="card-price">R$67,90</p>
+                <p class="card-text">
+                  Brinco de 2cm em PRATA 925 LEGÍTIMA - Garantia Vitalícia
+                </p>
+                <a
+                  href="https://wa.me/21982635308?text=Olá!%20Tenho%20interesse%20no%20Brinco%20Pendurado%20Zircônia."
+                  class="btn btn-success"
+                  >Comprar no WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Adicione mais Brincos aqui -->
+        </div>
+      </section>
     </main>
     <footer class="footer text-white py-3 text-center">
-        <p>&copy; 2024 Catálogo Essence Acessórios. Todos os direitos reservados.</p>
+      <p>
+        &copy; 2024 Catálogo Essence Acessórios. Todos os direitos reservados.
+      </p>
     </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
